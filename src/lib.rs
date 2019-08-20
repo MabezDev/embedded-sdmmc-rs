@@ -19,7 +19,7 @@ mod blockdevice;
 mod fat;
 mod filesystem;
 mod sdmmc;
-mod sdmmc_proto;
+pub mod sdmmc_proto;
 
 pub use crate::blockdevice::{Block, BlockCount, BlockDevice, BlockIdx};
 pub use crate::fat::{Fat16Volume, Fat32Volume};

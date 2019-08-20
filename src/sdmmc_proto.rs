@@ -27,6 +27,8 @@
 
 //==============================================================================
 
+#![allow(missing_docs)]
+
 // Possible errors the SD card can return
 
 pub const ERROR_OK: u8 = 0x00;
